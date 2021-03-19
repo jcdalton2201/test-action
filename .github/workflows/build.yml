@@ -21,7 +21,6 @@ jobs:
       - name: coverage
         run: npm run coverage
       - name: test coverage
-        runs:
           using: 'node12'
           main: 'checkCoverage.js'
       
