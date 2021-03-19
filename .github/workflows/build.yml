@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: NPM installs
-        run: npm install
+        run: npm install --force
       - name: build src
         run: npm run build
 
