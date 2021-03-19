@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: NPM installs
         run: npm install --force
+      - name: install postcss
+        run: npm install rollup-plugin-postcss rollup-plugin-postcss-lit postcss
       - name: build src
         run: npm run build
 
