@@ -88,6 +88,8 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
     "lit-element": "^2.4.0"
   }
 }
