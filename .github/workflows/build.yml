@@ -16,4 +16,11 @@ jobs:
         run: npm install rollup-plugin-postcss rollup-plugin-postcss-lit postcss
       - name: build src
         run: npm run build
+  test-code:
+    needs: build
+    runs-on: macos-latest
+    steps:
+      - name: code lint
+        run: npm run lint
+        
 
