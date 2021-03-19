@@ -1,0 +1,41 @@
+{
+    "plugins": [
+        "prettier"
+    ],
+    "parser": "",
+    "env": {
+        "es6": true,
+        "jasmine": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020,
+        "allowImportExportEverwhere": true,
+        "experimentalObjectRestSpread": true
+    },
+    "globals": {
+        "Rx": true,
+        "tempHtml": true
+    },
+    "rules": {
+        "indent": [
+            2,
+            4
+        ],
+
+        "quotes": [
+            2,
+            "single"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "no-console": [
+            0
+        ]
+    }
+}
